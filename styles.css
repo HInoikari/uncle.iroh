@@ -1,0 +1,58 @@
+div {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    }
+
+#image {
+    min-height: 182px;
+    min-width: 225px;
+    max-height: 360px;
+    max-width: 450px;
+    margin: 5px;
+    }
+
+#text {
+    display: block;
+    }
+
+p {
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    animation-name: slide;
+    animation: slide 30s linear;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 1;
+    }
+
+
+
+@keyframes slide {
+    0% {
+        margin-top: 0;
+
+    }
+    16% {
+        margin-top: -20px;
+           }
+    33% {
+        margin-top: -60px;
+           }
+    50% {
+        margin-top: -80px;
+           }
+    66% {
+        margin-top: -100px;
+           }
+    82% {
+        margin-top: -120px;
+            }
+    100% {
+        margin-top: -160px;
+            }
+}
+
+

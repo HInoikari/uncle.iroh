@@ -60,3 +60,31 @@ div {
     100% { top: -400px; }
     }
 
+button  {
+    max-width: 60px;
+    background: navajowhite;
+    border: aliceblue;
+    }
+
+#bottons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    }
+
+#play-music-button {
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-size: 50% 50%;
+    background-position: center;
+}
+
+.play {
+    background: url("image/sound_on.png") no-repeat;
+}
+
+.pause {
+    background: url("image/sound_off.png") no-repeat;
+}
